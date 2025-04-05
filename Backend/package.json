@@ -1,10 +1,10 @@
 {
-  "name": "ayush-backend-host-linx",
+  "name": "Cyber shield backend host",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,7 @@
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.21.0",
+    "express": "^4.21.2",
     "express-session": "^1.18.0",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
