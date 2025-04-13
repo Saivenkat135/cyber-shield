@@ -6,7 +6,10 @@ const app=express();
 require("dotenv").config(); // to access the values .env file
 
 const user=require("./routes/userRoute");
-
+const fakenews=require("./routes/fakenewsRoute");
+const imagesensorroute=require("./routes/imageSensorRoute");
+const msgdataroute=require("./routes/msgDataRoute");
+const scam=require("./routes/scamRoute");
 
 //MongoDB Atlas Connection
 try {
@@ -30,6 +33,10 @@ try {
   }
 
 app.use("/api",user);
+app.use("/api",fakenews);
+app.use("/api",imagesensorroute);
+app.use("/api",msgdataroute);
+app.use("/api",scam);
 
 // Serve the static files (HTML, CSS, JS)
 app.use(express.static("public"));
