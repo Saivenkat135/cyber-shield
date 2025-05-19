@@ -10,6 +10,8 @@ const fakenews=require("./routes/fakenewsRoute");
 const imagesensorroute=require("./routes/imageSensorRoute");
 const msgdataroute=require("./routes/msgDataRoute");
 const scam=require("./routes/scamRoute");
+const metachat=require("./routes/metaChatRoute");
+const socialmedia=require("./routes/socialMediaRoute");
 
 //MongoDB Atlas Connection
 try {
@@ -37,6 +39,8 @@ app.use("/api",fakenews);
 app.use("/api",imagesensorroute);
 app.use("/api",msgdataroute);
 app.use("/api",scam);
+app.use("/api",metachat);
+app.use("/api",socialmedia);
 
 // Serve the static files (HTML, CSS, JS)
 app.use(express.static("public"));
