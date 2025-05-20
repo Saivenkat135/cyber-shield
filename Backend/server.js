@@ -12,7 +12,7 @@ const msgdataroute=require("./routes/msgDataRoute");
 const scam=require("./routes/scamRoute");
 const metachat=require("./routes/metaChatRoute");
 const socialmedia=require("./routes/socialMediaRoute");
-
+const contsen=require("./routes/contSenRoute");
 //MongoDB Atlas Connection
 try {
     const mongoUri = process.env.MONGO_API;
@@ -41,6 +41,7 @@ app.use("/api",msgdataroute);
 app.use("/api",scam);
 app.use("/api",metachat);
 app.use("/api",socialmedia);
+app.use("/api",contsen);
 
 // Serve the static files (HTML, CSS, JS)
 app.use(express.static("public"));
