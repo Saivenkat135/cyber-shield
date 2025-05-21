@@ -1,0 +1,101 @@
+
+.meditation-timer-page {
+    padding: 20px;
+    background-color: #121212; /* Dark mode background */
+    color: #fff; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    margin-top: 90px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1b1b1b;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #00bcd4; /* Blue accent */
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    padding-top: 1%;
+}
+
+.features-section, .developers-section, .contribution-section {
+    margin: 40px 0;
+}
+
+.features-section h2, .developers-section h2, .contribution-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.developer-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature-card, .developer-card {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.developer-card {
+    margin-right: 30px;
+}
+
+.feature-card h3, .developer-card h3 {
+    color: #00bcd4;
+}
+#role-abt {
+    color: #00d420;
+}
+.feature-card p, .developer-card p {
+    padding-top: 3%;
+}
+
+.contribution-section {
+    background-color: #1b1b1b;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer-abt {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b1b1b;
+    color: #00bcd4;
+}
+
+#meet-the{
+    font-size: 1.5rem;
+}
+
+#listo {
+    padding-left: 20px; 
+    margin: 0; /* Removes any default margins */
+    list-style-position: inside; 
+    text-align: left; /* Ensures text aligns to the left */
+}
+
+#listo li {
+    margin: 0; 
+    padding: 0; /* Ensures no additional padding inside list items */
+}
+#listo li::marker {
+    color: green; 
+    font-size: 1.2em; 
+}

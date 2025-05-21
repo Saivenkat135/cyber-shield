@@ -1,0 +1,19 @@
+.twitter-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    color: #1da1f2;
+    font-size: 16px;
+  }
+  
+  .twitter-profile .twitter-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .twitter-profile:hover .twitter-id {
+    text-decoration: underline;
+  }
+  

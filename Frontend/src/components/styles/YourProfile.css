@@ -1,0 +1,124 @@
+.profile-container{
+  background-color: white;
+  height: 600px;
+
+}
+
+.profile-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+.profile-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: rgb(21, 106, 21);
+  object-fit:contain;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(10, 10, 10, 1);
+  text-align:justify;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 24px rgba(10, 10, 10, 0.3);
+}
+
+
+.file-upload {
+  height: 50px;
+}
+
+.userdata {
+  height: auto; 
+  width: 100%;
+  max-width: 350px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 20px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: linear-gradient(145deg, #ffffff, #f9f9f9);
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(21, 106, 21);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+}
+
+.custom-file-upload:hover {
+  background-color: rgb(21, 106, 21);
+  transform: translateY(-2px);
+}
+
+.upload-button {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: rgb(21, 106, 21);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: rgb(21, 106, 21)
+}
+
+
+.file-upload{
+  margin-left: 30px;
+}
+
+h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+}
+
+input[type="text"]:focus {
+  border-color: rgb(21, 106, 21);
+  outline: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-main {
+  animation: fadeIn 0.8s ease-out;
+}
