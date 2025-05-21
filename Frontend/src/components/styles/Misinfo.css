@@ -1,0 +1,104 @@
+ /* General container styles */
+.div1-misinfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  align-items: center;
+  background-color: #ffffff; /* Light background color */
+}
+
+.div2-misinfo {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Soft shadow for card */
+  text-align: center;
+}
+
+.para-misinfo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+   
+}
+
+/* Textarea Styling */
+.input-misinfo {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none; /* Prevent manual resizing */
+  outline: none;
+  
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-misinfo:focus {
+  border-color: #6e8efb; /* Blue border on focus */
+}
+
+/* Button Styling */
+.btn-misinfo {
+  width: 30%; /* Limit width for better appearance */
+  padding: 10px; /* Increased padding for a larger button */
+  background-color: #28a745; /* Green background */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  margin-top: 20px; /* Space above the button */
+}
+
+.btn-misinfo:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.btn-misinfo:active {
+  background-color: #1e7e34; /* Even darker green when clicked */
+}
+
+/* Result Section Styling */
+.div3-misinfo {
+  margin-top:5px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.para2-misinfo {
+  font-size: 25px;
+  font-weight: bold;  /* Bold heading */
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.para3-misinfo,
+.para4-misinfo,
+.para5-misinfo {
+  font-size: 16px;
+  font-weight: bold;  /* Normal text */
+  color: #2e2c2c;
+  margin: 5px 0;
+  padding: 8px;
+  padding-left: 0;
+   
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 4px;
+}

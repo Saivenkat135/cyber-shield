@@ -1,0 +1,22 @@
+.login-prompt{
+    width:100%;
+    text-align: center;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box button{
+    background-color: rgb(10, 84, 10);
+    color:white;
+    margin-right: 30px;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-box p{
+          font-size: 1.4rem;
+}

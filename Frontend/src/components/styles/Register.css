@@ -1,0 +1,60 @@
+
+.register-error{
+  margin-top: 5px;
+    color: rgb(171, 34, 34);
+    font-size: 15PX;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.div-register { 
+  padding-top: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(16, 17, 16, 0.2); 
+  width: 600px;
+  height:400px;
+  margin:auto;
+  text-align: center;
+}
+
+.label-register {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1b5e20; 
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-register {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  /* border: 2px solid #66bb6a; */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-register:focus {
+  border-color: #2e7d32; /* Dark green */
+  box-shadow: 0 0 8px rgba(46, 125, 50, 0.5);
+}
+
+.btn-register {
+  background-color: #2e7d32; /* Dark green */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-register:hover {
+  background-color: #1b5e20; /* Darker green */
+}
+.reg-to-log{
+  cursor: pointer;
+}

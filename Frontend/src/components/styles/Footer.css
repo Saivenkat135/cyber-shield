@@ -1,0 +1,33 @@
+.footer {
+  text-align: center;
+  /* background-color: #12514b; */
+  background-color: rgba(236, 234, 234, 0.71);
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  height: 15vh;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+}
+#footer-description {
+  padding-top: 30px;
+}
+@media (max-width: 768px) {
+  #footer-description {
+    font-size: 1rem; /* Smaller font size on smaller screens */
+  }
+
+  .footer p {
+    font-size: 0.85rem; /* Smaller font size on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #footer-description {
+    font-size: 0.9rem; /* Further reduce font size on very small screens */
+  }
+  .footer {
+    height: 15vh;
+  }
+  .footer p {
+    font-size: 0.8rem; /* Further reduce font size on very small screens */
+  }
+}

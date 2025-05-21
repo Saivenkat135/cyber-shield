@@ -1,0 +1,66 @@
+.home-censor-img
+{
+    background-image: url('../../assets/abusecensor.jpg');
+
+}
+.home-fact-img{
+    background-image: url('../../assets/fact1.png');
+}
+.home-censor-img,.home-fact-img,.home-trend-img,.home-group-img,.home-chat-img{
+    
+    height:100px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  width:100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-right:15px;
+}
+.home-trend-img{
+    background-image: url('../../assets/trend.jpg');
+}
+.home-group-img{
+    background-image: url('../../assets/group.jpg');
+} 
+.home-censor-text h3{
+    margin-bottom: 0px;
+}
+.home-chat-img{
+    background-image: url('../../assets/chatbot.jpg');
+}
+.home-censor{
+    /* border:2px solid black; */
+    display:flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-top:30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+.home-censor:hover{
+   
+}
+.home-censor-tdiv{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.home-censor-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.home-censor-btn:hover {
+    background-color: darkgreen;
+}
